@@ -4,11 +4,10 @@
 
 ## Chapter 2: Java Basics
 ##### What is Java
-##### Java datatypes - Numbers [a link](https://github.com/user/repo/blob/branch/other_file.md)
-
-##### Arithmetic operators
-##### Java datatypes - Booleans
-##### Comparing numbers
+##### [Java data types - Numbers](src/techno/study/ch2/DataTypesNumbers.java)
+##### [Arithmetic operators](src/techno/study/ch2/ArithmeticOperators.java)
+##### [Java data types - Booleans](src/techno/study/ch2/DataTypesBooleans.java)
+##### [Comparing numbers](src/techno/study/ch2/ComparingNumbers.java)
 ##### Binary
 ##### Java datatypes - String #1
 ##### Java datatypes - String #2
