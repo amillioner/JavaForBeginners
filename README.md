@@ -9,19 +9,17 @@
 ##### [Java data types - Booleans](src/techno/study/ch2/DataTypesBooleans.java)
 ##### [Comparing numbers](src/techno/study/ch2/ComparingNumbers.java)
 ##### Binary
-##### Java datatypes - String #1
-##### Java datatypes - String #2
+##### [Java data types - String](src/techno/study/ch2/DataTypesStrings.java)
 
 ## Chapter 3: Java Control Flow and Other Core Features
-##### If - Else statement
-##### Switch statement
-##### Random values
-##### User input
-##### Loops #1
-##### Loops #2
-##### Arrays
+##### [If - Else statement](src/techno/study/ch3/IfElseStatement.java)
+##### [Switch statement](src/techno/study/ch3/SwitchStatement.java)
+##### [Random values](src/techno/study/ch3/RandomValues.java)
+##### [User input](src/techno/study/ch3/UserInput.java)
+##### [Loops](src/techno/study/ch3/Loops.java)
+##### [Arrays](src/techno/study/ch3/Arrays.java)
 ##### Sorting arrays
-##### Multi-dimensional arrays
+##### [Multi-dimensional arrays](src/techno/study/ch3/MultiDimensionalArrays.java)
 ##### Solving problems with Google
 ##### Methods
 
