@@ -26,13 +26,14 @@ public class DataTypesStrings {
         String printA = "letter is: " + A;
         System.out.println(printA);
 
-        courseName.charAt(0);
-        courseName.startsWith("te");
-        courseName.endsWith("dy");
-        courseName.contains("no");
-        courseName.replace("t", "M");
-        courseName.replaceAll("t", "M");
-        courseName.equals("techno study");
+        char c = courseName.charAt(0);
+        boolean te = courseName.startsWith("te");
+        boolean dy = courseName.endsWith("dy");
+        boolean no = courseName.contains("no");
+        String replace = courseName.replace("t", "M");
+        String replaceAll = courseName.replaceAll("techno", "super");
+        boolean technoStudy = courseName.equals("techno study");
+        String substring = courseName.substring(0, 5);
 
         String name = "John";
         String name2 = new String("John");
@@ -47,4 +48,6 @@ public class DataTypesStrings {
     //  2. write code that count length of string and prints sum of length and index of "e"
     //    ex: "techno" => 6+1 = 7
     //    hint: length(), indexOf()
+    //  3. write program that prints your initials
+    //    ex: Michale Jackson => M.J.
 }
