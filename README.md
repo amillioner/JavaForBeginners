@@ -18,10 +18,10 @@
 ##### [User input](src/techno/study/ch3/UserInput.java)
 ##### [Loops](src/techno/study/ch3/Loops.java)
 ##### [Arrays](src/techno/study/ch3/Arrays.java)
-##### Sorting arrays
+##### [Sorting arrays](src/techno/study/ch3/SortingArrays.java)
 ##### [Multi-dimensional arrays](src/techno/study/ch3/MultiDimensionalArrays.java)
-##### Solving problems with Google
-##### Methods
+##### [Solving problems with Google](src/techno/study/ch3/SolvingProblemsWithGoogle.java)
+##### [Methods](src/techno/study/ch3/Methods.java)
 
 ## Chapter 4: Object Oriented Programming
 ##### Introduction to object oriented programming
