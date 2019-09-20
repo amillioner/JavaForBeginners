@@ -2,7 +2,7 @@ package techno.study.ch2.exersices;
 
 import java.util.Scanner;
 
-class CheckEvenOdd
+public class OddOrEven
 {
     public static void main(String args[])
     {

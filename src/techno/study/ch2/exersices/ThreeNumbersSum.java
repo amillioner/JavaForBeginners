@@ -1,6 +1,5 @@
 package techno.study.ch2.exersices;
-
-import java.io.Console;
+//Write a program that reads three int numbers from the console and prints their sum
 import java.util.Scanner;
 
 public class ThreeNumbersSum {
