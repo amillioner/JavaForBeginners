@@ -6,7 +6,7 @@ package techno.study.ch3;
  * TODO
  *   some little knowledge about exceptions, ArrayIndexOutOfBoundsException, NullPointerException
  */
-public class Arrays {
+public class JavaArrays {
 
     public static void main(String[] args) {
         int[] array = new int[4];
