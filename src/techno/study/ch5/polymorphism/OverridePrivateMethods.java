@@ -1,5 +1,5 @@
-package techno.study.ch5.inheritance;
-
+package techno.study.ch5.polymorphism;
+//https://www.geeksforgeeks.org/can-override-private-methods-java/
 public class OverridePrivateMethods {
     class Base {
         public void fun() {
