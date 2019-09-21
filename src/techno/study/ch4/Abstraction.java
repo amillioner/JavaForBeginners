@@ -57,7 +57,7 @@ class Student extends Person {
 
     private String grade;
 
-    public void setGrade(String grade){
+    public void setGrade(String grade) {
         this.grade = grade;
     }
 

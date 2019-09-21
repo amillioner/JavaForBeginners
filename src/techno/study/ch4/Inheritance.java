@@ -4,7 +4,7 @@ package techno.study.ch4;
  * is-a relation, super, constructor, has-a relation
  * <p>
  * all classes extend from object
- *
+ * <p>
  * TODO teach interface also
  */
 public class Inheritance {

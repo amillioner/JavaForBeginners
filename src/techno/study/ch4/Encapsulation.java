@@ -3,7 +3,6 @@ package techno.study.ch4;
 
 /**
  * setter, getter, this
- *
  */
 public class Encapsulation {
 

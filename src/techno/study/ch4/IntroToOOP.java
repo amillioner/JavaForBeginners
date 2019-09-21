@@ -19,7 +19,7 @@ public class IntroToOOP {
     }
 
 
-    class Laptop{
+    class Laptop {
         int displaySize;
         String color;
         double weight;

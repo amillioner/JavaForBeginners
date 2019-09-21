@@ -2,13 +2,13 @@ package techno.study.ch2;
 
 /**
  * 1. Boolean: true, false
- *
+ * <p>
  * boolean: The boolean data type has only two possible values: true and false.
  * Use this data type for simple flags that track true/false conditions.
  * This data type represents one bit of information, but its "size" isn't something that's precisely defined.
- *
+ * <p>
  * 2. Logical operators: ! - NOT, && - AND, || - OR, ^ - XOR
- *
+ * <p>
  * 3. IF statement
  */
 
@@ -28,7 +28,7 @@ public class DataTypesBooleans {
         System.out.println(a ^ b);
 
         boolean isGreen = true;
-        if(isGreen){
+        if (isGreen) {
             System.out.println("You can walk");
         }
     }

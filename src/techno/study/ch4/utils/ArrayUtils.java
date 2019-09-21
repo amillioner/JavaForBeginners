@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArrayUtils {
 
-    public static int[] addToArray(int[] inputArray, int index, int number){
+    public static int[] addToArray(int[] inputArray, int index, int number) {
         inputArray[index] = number;
 
         return inputArray;

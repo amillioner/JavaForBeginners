@@ -2,9 +2,9 @@ package techno.study.ch3;
 
 /**
  * array is a list with predefined length
- *
+ * <p>
  * TODO
- *   some little knowledge about exceptions, ArrayIndexOutOfBoundsException, NullPointerException
+ * some little knowledge about exceptions, ArrayIndexOutOfBoundsException, NullPointerException
  */
 public class JavaArrays {
 
