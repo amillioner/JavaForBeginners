@@ -2,11 +2,11 @@ package techno.study.ch3;
 
 /**
  * array is a list with predefined length
- *
+ * <p>
  * TODO
- *   some little knowledge about exceptions, ArrayIndexOutOfBoundsException, NullPointerException
+ * some little knowledge about exceptions, ArrayIndexOutOfBoundsException, NullPointerException
  */
-public class Arrays {
+public class JavaArrays {
 
     public static void main(String[] args) {
         int[] array = new int[4];

@@ -47,7 +47,7 @@ public class Loops {
 
         // loops inside loops
         for (int i = 0; i < 3; i++) {
-            while (true){
+            while (true) {
 
             }
         }

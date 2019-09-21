@@ -2,12 +2,10 @@ package techno.study.ch2;
 
 /**
  * 1. char: 'a' only one symbol can be passed to '', single quotes
- *
+ * <p>
  * 2. String: "hello world"
- *
+ * <p>
  * 3. String concatenation "hello" + " " + "world"
- *
- *
  */
 
 public class DataTypesStrings {

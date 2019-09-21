@@ -10,13 +10,13 @@ public class ComparingNumbers {
         // example 1
         int temperature = 90;
 
-        if(temperature > 80){
+        if (temperature > 80) {
             System.out.println("Hot");
         }
-        if(temperature < 80 && temperature > 70){
+        if (temperature < 80 && temperature > 70) {
             System.out.println("Warm");
         }
-        if(temperature < 50){
+        if (temperature < 50) {
             System.out.println("Cold");
         }
 
@@ -25,13 +25,13 @@ public class ComparingNumbers {
         int a1 = 1, a2 = 2, a3 = 3;
         int highest = 0;
 
-        if(highest < a1){
+        if (highest < a1) {
             highest = a1;
         }
-        if(highest < a2){
+        if (highest < a2) {
             highest = a2;
         }
-        if(highest < a3){
+        if (highest < a3) {
             highest = a3;
         }
         System.out.println(highest);

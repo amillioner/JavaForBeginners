@@ -2,7 +2,8 @@ package techno.study.ch1;
 
 // Fig. 2.7: Addition.java
 // Addition program that displays the sum of two numbers.
-import java.util.Scanner; // program uses class Scanner
+
+import java.util.Scanner;
 
 public class Addition {
     // main method begins execution of Java application

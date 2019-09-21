@@ -5,8 +5,7 @@ package techno.study.ch2;
  * +, -, *, /, %, ( )
  * <p>
  * TODO difference between pre increment, post increment
- *  making integer Double D, Float F, Long L
- *
+ * making integer Double D, Float F, Long L
  */
 public class ArithmeticOperators {
 

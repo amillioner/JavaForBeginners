@@ -3,17 +3,17 @@ package techno.study.ch3;
 
 /**
  * Methods are like actions that you class can perform
- *
+ * <p>
  * a methods should do only one thing
  */
 public class Methods {
 
-    public static int sum(int a, int b){
-        return a+b;
+    public static int sum(int a, int b) {
+        return a + b;
     }
 
-    public static void main(String[] args){
-        System.out.println(sum(1,4));
+    public static void main(String[] args) {
+        System.out.println(sum(1, 4));
     }
 
 
