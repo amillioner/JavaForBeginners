@@ -41,11 +41,10 @@ maintainability, and ease of development.
 * 06:00 [OOP - Polymorphism: interface, override, overload](src/techno/study/ch4/Polymorphism.java)
 
 ## Chapter 6: Exceptions: 08:00 hours
-* 01:00 Intro to Exceptions
-* 02:00 Types of Exception: Checked, Runtime, Errors
-* 02:00 try-catch, try with resources
-* 03:00 Creating Exception    
+* 01:00 [Exceptions: Checked, Runtime, Errors](src/techno/study/ch6/JavaExceptions.java)
+* 02:00 [try-catch, try with resources](src/techno/study/ch6/TryCatchFinally.java)
+* 03:00 [Creating Exception](src/techno/study/ch6/MyException.java)
 
 ## Final Project: (00:30 x student count)
-* Final Project #1 java
+* Final Project #1 Java Project
 * Final Project #2 selenium
