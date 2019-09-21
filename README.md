@@ -47,6 +47,5 @@ maintainability, and ease of development.
 * 03:00 Creating Exception    
 
 ## Final Project: (00:30 x student count)
-* Final Project #1
-* Final Project #2
-* Final Project #3
+* Final Project #1 java
+* Final Project #2 selenium
