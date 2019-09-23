@@ -39,3 +39,7 @@ class Test2
         s.display();
     }
 }
+//Output:
+//
+//This is student class
+//This is person class

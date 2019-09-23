@@ -34,3 +34,6 @@ class Test
     }
 }
 
+//Output:
+//
+//Maximum Speed: 120
