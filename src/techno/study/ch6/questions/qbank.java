@@ -4,7 +4,7 @@ package techno.study.ch6.questions;
 //Prerequisite : try-catch, Exception Handling
 //
 //1. What will be the output of the following program?
-class Geeks {
+class Test1 {
     public static void main(String[] args) {
         try {
             System.out.println(1 / 0);
@@ -24,19 +24,19 @@ class Geeks {
 //Explanation: In the above program, we are calling getMessage() method to print the exception information. We know that getMessage() method will always be printed as the description of the exception which is / by zero.
 //
 //2. What will be the output of the following program?
-class Geeks2 {
+class Test2 {
     public static void main(String[] args) {
         try {
             System.out.println(1 / 0);
         } catch (ArithmeticException e) {
-            System.out.println("Hello Geeks");
+            System.out.println("Hello Test");
         } catch (Exception e) {
             System.out.println("Welcome");
         }
     }
 }
 //Options:
-//1. Hello Geeks
+//1. Hello Test
 //2. No Output
 //3. Compile-time error
 //4. welcome
@@ -46,12 +46,12 @@ class Geeks2 {
 //
 //3. What will be the output of the following program?
 
-class Geeks3 {
+class Test3 {
 //        public static void main(String[] args) {
 //            try {
 //                System.out.println(1 / 0);
 //            } catch (Exception e) {
-//                System.out.println("Hello Geeks");
+//                System.out.println("Hello Test");
 //            } catch (ArithmeticException e) {
 //                System.out.println("Welcome");
 //            }
@@ -59,7 +59,7 @@ class Geeks3 {
 }
 
 //Options:
-//1. Hello Geeks
+//1. Hello Test
 //2. No Output
 //3. Compile-time error
 //4. welcome
@@ -69,7 +69,7 @@ class Geeks3 {
 // Otherwise we will get compile time error saying error: exception ArithmeticException has already been caught.
 //
 //4. What will be the output of the following program?
-class Geeks4 {
+class Test4 {
 //        public static void main(String[] args) {
 //            try {
 //                System.out.println(1 / 0);
@@ -86,12 +86,12 @@ class Geeks4 {
 //Explanation: In the above program, we are declaring a try block without any catch or finally block. We have to always declare try with catch or finally block because single try block is invalid. That’s Why it will give compile time error saying error: ‘try’ without ‘catch’, ‘finally’ or resource declarations.
 
 //5. What will be the output of the following program?
-class Geeks5 {
+class Test5 {
 //        public static void main(String[] args) {
 //            try {
 //                System.out.println(1 / 0);
 //            }
-//            System.out.println("Hello GEEKS");
+//            System.out.println("Hello TEST");
 //        catch(ArithmeticException e)
 //            {
 //                System.out.println("Welcome");
@@ -99,8 +99,8 @@ class Geeks5 {
 //        }
 }
 //Options:
-//1. Hello Geeks
-//2. Hello Geeks
+//1. Hello Test5
+//2. Hello Test
 //Welome
 //3. Run-time Exception
 //4. Compile-time error
