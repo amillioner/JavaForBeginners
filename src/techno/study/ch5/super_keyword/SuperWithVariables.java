@@ -6,32 +6,35 @@ package techno.study.ch5.super_keyword;
 // 1. Use of super with variables: This scenario occurs when a derived class and base class has same data members.
 // In that case there is a possibility of ambiguity for the JVM. We can understand it more clearly using this code snippet:
 //
-/* Base class vehicle */
- class Vehicle
-{
-    int maxSpeed = 120;
-}
-
-/* sub class Car extending vehicle */
- class Car extends Vehicle
-{
-    int maxSpeed = 180;
-
-    void display()
+class SuperWithVariables{
+    /* Base class vehicle */
+    class Vehicle
     {
-        /* print maxSpeed of base class (vehicle) */
-        System.out.println("Maximum Speed: " + super.maxSpeed);
+        int maxSpeed = 120;
     }
-}
 
-/* Driver program to test */
-class Test
-{
-    public static void main(String[] args)
+    /* sub class Car extending vehicle */
+    class Car extends Vehicle
     {
-        Car small = new Car();
-        small.display();
+        int maxSpeed = 180;
+
+        void display()
+        {
+            /* print maxSpeed of base class (vehicle) */
+            System.out.println("Maximum Speed: " + super.maxSpeed);
+        }
     }
+
+    /* Driver program to test */
+    class Test
+    {
+        public void main(String[] args)
+        {
+            Car small = new Car();
+            small.display();
+        }
+    }
+
 }
 
 //Output:

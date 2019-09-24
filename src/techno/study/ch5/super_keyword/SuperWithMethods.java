@@ -1,43 +1,41 @@
 package techno.study.ch5.super_keyword;
-
-/* Base class Person */
-class Person
-{
-    void message()
-    {
-        System.out.println("This is person class");
-    }
-}
-
-/* Subclass Student */
-class Student extends Person
-{
-    void message()
-    {
-        System.out.println("This is student class");
+//2. Use of super with methods: This is used when we want to call parent class method.
+// So whenever a parent and child class have same named methods then to resolve ambiguity we use super keyword.
+// This code snippet helps to understand the said usage of super keyword.
+class SuperWithMethods {
+    /* Base class Person */
+    class Person {
+        void message() {
+            System.out.println("This is person class");
+        }
     }
 
-    // Note that display() is only in Student class
-    void display()
-    {
-        // will invoke or call current class message() method
-        message();
+    /* Subclass Student */
+    class Student extends Person {
+        void message() {
+            System.out.println("This is student class");
+        }
 
-        // will invoke or call parent class message() method
-        super.message();
+        // Note that display() is only in Student class
+        void display() {
+            // will invoke or call current class message() method
+            message();
+
+            // will invoke or call parent class message() method
+            super.message();
+        }
     }
-}
 
-/* Driver program to test */
-class Test2
-{
-    public static void main(String args[])
-    {
-        Student s = new Student();
+    /* Driver program to test */
+    class Test {
+        public void main(String args[]) {
+            Student s = new Student();
 
-        // calling display() of Student
-        s.display();
+            // calling display() of Student
+            s.display();
+        }
     }
+
 }
 //Output:
 //

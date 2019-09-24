@@ -46,7 +46,7 @@ public class OverridePrivateMethods {
             }
         }
 
-        public void main(String args[])  {
+        public  void main(String args[])  {
 
             // In order to create instance of Inner class, we need an Outer
             // class instance. So, first create Outer class instance and then

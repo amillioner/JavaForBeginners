@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class PositiveOrNegativeWithInput {
 
-    public static void main(String[] args)
+    public void main(String[] args)
     {
         int number;
         Scanner scan = new Scanner(System.in);
