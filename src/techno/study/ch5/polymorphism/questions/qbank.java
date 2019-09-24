@@ -5,32 +5,32 @@ import java.io.IOException;
 class q1 {
 
     //1) What is the output of the following program?
-    class GFG {
+    class TSC {
         protected void getData() {
-            System.out.println("Inside GFG");
+            System.out.println("Inside TSC");
         }
     }
 
-    class GeeksforGeeks extends GFG {
+    class TechnoStudyClass extends TSC {
         protected void getData() {
-            System.out.println("Inside GeeksforGeeks");
+            System.out.println("Inside TechnoStudyClass");
         }
     }
 
     public class Test {
         public void main(String[] args) {
-            GFG obj = new GeeksforGeeks();
+            TSC obj = new TechnoStudyClass();
             obj.getData();
         }
     }
 
-//a) Inside GFG
-//b) Inside GeeksforGeeks
+//a) Inside TSC
+//b) Inside TechnoStudyClass
 //c) Compilation error
 //d) Runtime error
 //
 //Ans. (b)
-//Explanation: A reference variable of GFG class is used to point to an object of class GeeksforGeeks. At the time of compilation, the JVM checks whether the method being called is defined in GFG class, but at the runtime, JVM invoke the method of GeeksforGeeks class because the object is from class GeeksforGeeks. Refer to static vs dynamic binding in java for more details.
+//Explanation: A reference variable of TSC class is used to point to an object of class TechnoStudyClass. At the time of compilation, the JVM checks whether the method being called is defined in TSC class, but at the runtime, JVM invoke the method of TechnoStudyClass class because the object is from class TechnoStudyClass. Refer to static vs dynamic binding in java for more details.
 }
 
 
@@ -39,13 +39,13 @@ class q2 {
 
 //    class Test {
 //        void myMethod() {
-//            System.out.println("GeeksforGeeks");
+//            System.out.println("TechnoStudyClass");
 //        }
 //    }
 //
 //    public class Derived extends Test {
 //        void myMethod() {
-//            System.out.println("GFG");
+//            System.out.println("TSC");
 //        }
 //
 //        public void main(String[] args) {
@@ -53,8 +53,8 @@ class q2 {
 //            object.myMethod();
 //        }
 //    }
-//a) GeeksforGeeks
-//b) GFG
+//a) TechnoStudyClass
+//b) TSC
 //c) Compilation error
 //d) Runtime error
 //
@@ -65,55 +65,55 @@ class q2 {
 class q3 {
 //    3) What is the output of the following program?
 //
-//    class GFG {
+//    class TSC {
 //        protected void getData() {
-//            System.out.println("Inside GFG");
+//            System.out.println("Inside TSC");
 //        }
 //    }
 //
-//    class GeeksforGeeks extends GFG {
+//    class TechnoStudyClass extends TSC {
 //        protected void getData() {
-//            System.out.println("Inside GeeksforGeeks");
+//            System.out.println("Inside TechnoStudyClass");
 //        }
 //
 //        protected void getValue() {
-//            System.out.println("GeeksforGeeks");
+//            System.out.println("TechnoStudyClass");
 //        }
 //    }
 //
 //    public class Test {
 //        public static void main(String[] args) {
-//            GFG obj = new GeeksforGeeks();
+//            TSC obj = new TechnoStudyClass();
 //            obj.getValue();
 //        }
 //    }
 //a) Compilation error
 //b) Runtime error
-//c) GeeksforGeeks
+//c) TechnoStudyClass
 //d) None of these
 //
 //Ans. (a)
-//Explanation: A GFG reference variable is used to store GeeksforGeeks object. At compile time, JVM looks for getValue method in GFG class. Detecting the absence of it, JVM throws a compile time error. Refer to static vs dynamic binding in java for more details.
+//Explanation: A TSC reference variable is used to store TechnoStudyClass object. At compile time, JVM looks for getValue method in TSC class. Detecting the absence of it, JVM throws a compile time error. Refer to static vs dynamic binding in java for more details.
 }
 
 class q4 {
 //    4) What is the output of the following program?
 
-    interface GFG {
+    interface TSC {
         void myMethod();
 
         void getInfo();
     }
 
-    abstract class Geeks implements GFG {
+    abstract class Geeks implements TSC {
         void getData() {
-            System.out.println("GFG");
+            System.out.println("TSC");
         }
     }
 
     public class Test extends Geeks {
         public void myMethod() {
-            System.out.println("GeeksforGeeks");
+            System.out.println("TechnoStudyClass");
         }
 
         public void getInfo() {
@@ -131,32 +131,32 @@ class q4 {
 //d) None of these
 //
 //Ans. (a)
-//Explanation: Class Geeks implements GFG interface. So all the methods declared in GFG interface get replicated for Geeks class. So when getInfo method is called on line 1 in the program above, the compiler checks to see if getInfo method exists in the Geeks class as a variable of type Geeks is being used to reference Test object.
+//Explanation: Class Geeks implements TSC interface. So all the methods declared in TSC interface get replicated for Geeks class. So when getInfo method is called on line 1 in the program above, the compiler checks to see if getInfo method exists in the Geeks class as a variable of type Geeks is being used to reference Test object.
 }
 
 class q5 {
 //    5) What is the output of the following program?
 
 //    class Test {
-//        public void gfg() {
-//            System.out.println("GeeksforGeeks");
+//        public void TSC() {
+//            System.out.println("TechnoStudyClass");
 //        }
 //    }
 //
 //    public class Derived extends Test {
-//        public void gfg() {
-//            System.out.println("GFG");
+//        public void TSC() {
+//            System.out.println("TSC");
 //        }
 //
 //        public static void main(String[] args) {
 //            Derived obj = new Test();
-//            obj.gfg();
+//            obj.TSC();
 //        }
 //    }
 //a) Compilation error
 //b) Runtime error
-//c) GFG
-//d) GeeksforGeeks
+//c) TSC
+//d) TechnoStudyClass
 //
 //Ans. (a)
 //Explanation: A child class reference variable cannot be used to store an instance of parent class.
@@ -210,11 +210,11 @@ class q7 {
 //
 //        public static void main(String[] args) {
 //            Test obj = new Test();
-//            obj.getDetails("GFG");
+//            obj.getDetails("TSC");
 //        }
 //    }
-//a) Derived class GFG
-//b) Test class GFG
+//a) Derived class TSC
+//b) Test class TSC
 //c) Compilation error
 //d) Runtime error
 //
@@ -355,7 +355,7 @@ class q12 {
 //
 //        public static void main(String[] args) {
 //            Test obj = new Test();
-//            System.out.println(obj.getData("GFG"));
+//            System.out.println(obj.getData("TSC"));
 //        }
 //    }
 //a) 0
@@ -373,11 +373,11 @@ class q13 {
 //    {
 //        private String function()
 //        {
-//            return ("GFG");
+//            return ("TSC");
 //        }
 //        public final static String function(int data)
 //        {
-//            return ("GeeksforGeeks");
+//            return ("TechnoStudyClass");
 //        }
 //        public static void main(String[] args)
 //        {
@@ -387,7 +387,7 @@ class q13 {
 //    }
 //a) Compilation error
 //b) Runtime error
-//c) GFG
+//c) TSC
 //d) None of these
 //
 //Ans. (c)
@@ -399,20 +399,20 @@ class q14 {
 
     public class Test {
         private String function(String temp, int data) {
-            return ("GFG");
+            return ("TSC");
         }
 
         private String function(int data, String temp) {
-            return ("GeeksforGeeks");
+            return ("TechnoStudyClass");
         }
 
         public void main(String[] args) {
             Test obj = new Test();
-            System.out.println(obj.function(4, "GFG"));
+            System.out.println(obj.function(4, "TSC"));
         }
     }
-//a) GFG
-//b) GeeksforGeeks
+//a) TSC
+//b) TechnoStudyClass
 //c) Compilation error
 //d) Runtime error
 //
@@ -425,22 +425,22 @@ class q15 {
 
     public class Test {
         private String function(String temp, int data, int sum) {
-            return ("GFG");
+            return ("TSC");
         }
 
         private String function(String temp, int data) {
-            return ("GeeksforGeeks");
+            return ("TechnoStudyClass");
         }
 
         public void main(String[] args) {
             Test obj = new Test();
-            System.out.println(obj.function("GFG", 0, 20));
+            System.out.println(obj.function("TSC", 0, 20));
         }
     }
-//a) GFG
+//a) TSC
 //b) Compilation error
 //c) Runtime error
-//d) GeeksforGeeks
+//d) TechnoStudyClass
 //Output A
 }
 
@@ -450,11 +450,11 @@ class q16 {
 
     public class Test {
         private String function(float i, int f) {
-            return ("gfg");
+            return ("TSC");
         }
 
         private String function(double i, double f) {
-            return ("GFG");
+            return ("TSC");
         }
 
         public void main(String[] args) {
@@ -462,10 +462,10 @@ class q16 {
             System.out.println(obj.function(1., 20));
         }
     }
-//a) GFG
+//a) TSC
 //b) Compilation error
 //c) Runtime error
-//d) GeeksforGeeks
+//d) TechnoStudyClass
 //
 //Ans. (a)
 //Explanation: This one is really simple. Different type of arguments contribute towards method overloading as the signature of methods is changed with type of attributes. Whichever matches the attributes is obviously called in Method Overloading. Here we are pass first attributes double not float.
