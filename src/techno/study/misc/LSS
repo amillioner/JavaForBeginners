@@ -1,0 +1,44 @@
+package techno.study.algo;
+
+public class LSS {
+
+    public static void main(String args[]) {
+        String myString = "aaaabbbbcccchhhhiiiiibbbbbbbbbccccccc";
+        LongestSequenceOfRepetativeChars(myString);
+    }
+
+    private static void LongestSequenceOfRepetativeChars(String s) {
+        int counter = 1;
+        char c = '\0';
+        char n = '\0';
+        int max = 0;
+        char res = '\0';
+
+        for (int i = 0; i < s.length() - 1; i++) {
+            c = s.charAt(i);
+            n = s.charAt(i + 1);
+
+            // If character's are in sequence , increase the counter
+            if (c == n) {
+                counter += 1;
+            } else {
+                // When sequence is completed, check if it is longest
+                if (counter > max) {
+                    max = counter;
+                    res = c;
+                }
+                counter = 1; // re-initialize counter
+            }
+        }
+        // Check if last string sequence is longest
+        if (counter > max) {
+            max = counter;
+            res = c;
+        }
+        String repeated = new String(new char[max]).replace('\0', res);
+        System.out.println(repeated);
+        System.out.println("Longest character sequence is of character "
+                + res + " and is " + max + " long");
+    }
+
+}
