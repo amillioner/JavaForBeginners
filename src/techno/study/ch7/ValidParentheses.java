@@ -1,4 +1,4 @@
-
+package techno.study.ch7;
 //20_ValidParentheses.java
 //        ************************************************************************
 //        Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
@@ -6,6 +6,8 @@
 //        The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
 //
 //        Method 1: Use ASCII table
+
+import java.util.Stack;
 
 class Solution {
     public boolean isValid(String s) {
