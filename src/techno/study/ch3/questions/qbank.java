@@ -7,15 +7,15 @@ package techno.study.ch3.questions;
 class Test1 {
     public static void main(String[] args) {
         for (; ; )
-            System.out.println("GEEKS");
+            System.out.println("TECHNO");
     }
 }
 
 //Options:
-//        1.GEEKS
+//        1.TECHNO
 //        2.Compile time error
 //        3.Run time Exception
-//        4.GEEKS (Infinitely)
+//        4.TECHNO (Infinitely)
 //
 //        The answer is option (4)
 //        Explanation: In the above example, we are using for loop. In for loop if we did not provide any initialization, condition-check and increment/decrement part then it will go to infinite loop if we did not provide any condition in statement.
@@ -24,17 +24,17 @@ class Test1 {
 class Test2 {
     public static void main(String[] args) {
         for (int i = 0; i < 3; )
-            System.out.println("GEEKS");
+            System.out.println("TECHNO");
     }
 }
 //Options:
-//        1.GEEKS GEEKS GEEKS
+//        1.TECHNO TECHNO TECHNO
 //        2.Compile time error
-//        3.GEEKS (Infinitely)
+//        3.TECHNO (Infinitely)
 //        4.No output
 //
 //        The answer is option (3)
-//        Explanation: When we are not taking any statement in increment/decrement section therefore overtime it does not increment/decrement the value of I and the condition always true. That’s why it results into GEEKS (Infinitely).
+//        Explanation: When we are not taking any statement in increment/decrement section therefore overtime it does not increment/decrement the value of I and the condition always true. That’s why it results into TECHNO (Infinitely).
 //
 //3. What will be the output for the following program?
 
@@ -65,7 +65,7 @@ class Test4 {
         int a = 10, b = 20;
         if (a < b) {
             if (a > b) {
-                System.out.println("HELLO GEEKS");
+                System.out.println("HELLO TECHNO");
             } else {
                 System.out.println("WELCOME");
             }
@@ -73,10 +73,10 @@ class Test4 {
     }
 }
 //Option:
-//        1.HELLO GEEKS
+//        1.HELLO TECHNO
 //        2.WELCOME
 //        3.Compile time error
-//        4.HELLO GEEKS WELCOME
+//        4.HELLO TECHNO WELCOME
 //
 //        The answer is option (2)
 //        Explanation: Here we are defining nested if and a single else part. In java, there is no dangling else problem in java. Every else is mapped to the nearest if statement. Therefore the else part belongs to if(x>y) in the above program, which returns false that’s why control goes to else part and the output is WELCOME.
