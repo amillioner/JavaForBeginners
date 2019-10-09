@@ -35,7 +35,7 @@ public class LSS {
             max = counter;
             res = cur;
         }
-        var repeated = new String(new char[max]).replace('\0', res);
+        String repeated = new String(new char[max]).replace('\0', res);
         System.out.println(repeated);
         System.out.println("Longest character sequence is of character "
                 + res + " and is " + max + " long");
